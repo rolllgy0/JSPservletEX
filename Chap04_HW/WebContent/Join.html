@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>get 방식 요청</title>
+			<style>
+			body {line-height:160%}
+			div {
+		        width: 100%;
+		        height: 300px;}
+		    div.left {
+		        width: 25%;
+		        float: left;
+		        box-sizing: border-box;}
+		    div.right {
+		        width: 75%;
+		        float: right;
+		        box-sizing: border-box;}
+			</style>
+	</head>
+	<body>
+		<form action="Join" method="post">
+			<div>
+				<div class="left">
+				이름<br/>
+				성별<br/>
+				아이디<br/>
+				비밀번호<br/>
+				비밀번호 확인<br/>
+				주소<br/>
+				전화번호<br/>
+				이메일주소<br/>
+				취미<br/>
+				</div>
+				<div class="right">
+					<input type="text" name="name"><br/>			
+					<select style="height:8%" name="gender">
+		    			<option value="남자">남자</option>
+		    			<option value="여자">여자</option>
+					</select><br/>
+					<input type="text" name="ID"><br/>
+					<input type="password" name="password"><br/>
+					<input type="password" name="confirmpassword"><br/>
+					<input type="text" name="address"><br/>
+					<input type="text" name="phonenumber"><br/>
+					<input type="text" name="Emailaddress"><br/>
+					축구<input type="checkbox" name="hobby" value="축구">
+					야구<input type="checkbox" name="hobby" value="야구">
+					농구<input type="checkbox" name="hobby" value="농구">
+					수영<input type="checkbox" name="hobby" value="수영"><br/>
+					게임<input type="checkbox" name="hobby" value="게임">
+					독서<input type="checkbox" name="hobby" value="독서">
+					음악<input type="checkbox" name="hobby" value="음악">
+					TV<input type="checkbox" name="hobby" value="TV"><br/>
+					영화<input type="checkbox" name="hobby" value="영화">
+					연극<input type="checkbox" name="hobby" value="연극">
+					뮤지컬<input type="checkbox" name="hobby" value="뮤지컬">
+					전시<input type="checkbox" name="hobby" value="전시">
+				</div>
+			</div>
+			<hr/>
+			<input type="submit" value="회원가입">
+		</form>
+	</body>
+</html>
